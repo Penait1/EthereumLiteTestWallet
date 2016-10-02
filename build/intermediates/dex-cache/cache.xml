@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_388bcff23eae8432c231ceaa973c868345e8944a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -18,69 +27,6 @@
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7414b0b67b5f5bfba239ec2898718733918368e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_f52e3a48e68d8e427c1aea876cf5a2603fc6a7cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="70a85c3b7490c71a7f0f3cd5430a1462da44d922">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f888fb32bbc0eeb4d835c623886843119d85716b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_aa6720bd0761feeb24743447d1f2c0c9372428cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_a8c2d1665fcd1cb59bf29198d3a1d47994210a72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_101a1ed6bcfed21e7f4e0066b784e414603e450b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_4e88db5e822c61174aa6f322b1d70b0e7bd4d03f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_388bcff23eae8432c231ceaa973c868345e8944a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +57,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8f8ce7f5929f27816427c9bb4ba705883a03b45b">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f888fb32bbc0eeb4d835c623886843119d85716b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_f52e3a48e68d8e427c1aea876cf5a2603fc6a7cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -138,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_aa6720bd0761feeb24743447d1f2c0c9372428cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -153,6 +126,33 @@
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
         <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_075eb1d5d97fec5d369883a2330f42ed2533f98d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Calvin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_a8c2d1665fcd1cb59bf29198d3a1d47994210a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_101a1ed6bcfed21e7f4e0066b784e414603e450b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Calvin\Documents\GitHub\EthereumLiteTestWallet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_4e88db5e822c61174aa6f322b1d70b0e7bd4d03f\classes.dex" />
     </item>
 
 </items>

@@ -11,17 +11,9 @@
     tools:context="com.example.calvin.nlcargochain.MainActivity">
 
     <TextView
-        android:id="@+id/latestBlockInfoText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
         android:id="@+id/addressText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/latestBlockInfoText"
         android:layout_alignParentStart="true" />
 
     <TextView
