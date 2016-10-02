@@ -42,19 +42,8 @@ public class MainActivity extends AppCompatActivity {
         context = new Context();
 
         try {
-            Enodes nodes = new Enodes(1);
-            nodes.set(0, Geth.newEnode("enode://e7544d59131271e89bcf6b14cd57323e15b0c9474edb463d4832e6fbc80722245e840997286a0d21a589b3e024def1e45095959a12d42219d1e419fe487fa767@50.112.52.169:30301"));
 
-            //Creating configuration so we connect to the testnet instead of mainnet.
-            NodeConfig config = new NodeConfig();
-            config.setBootstrapNodes(nodes);
-            config.setEthereumChainConfig(Geth.getTestnetChainConfig());
-            config.setEthereumGenesis(Geth.getTestnetGenesis());
-            config.setEthereumTestnetNonces(true);
-            config.setEthereumNetworkID(2);
-            config.setMaxPeers(25);
-
-            Node node = Geth.newNode(getFilesDir() + "/.ethereum", config);
+            Node node = Geth.newNode(getFilesDir() + "/.ethereum", createTestnetConfiguration());
             node.start();
 
             ethereumClient = node.getEthereumClient();
@@ -106,5 +95,23 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+    }
+
+    private NodeConfig createTestnetConfiguration() {
+        Enodes nodes = new Enodes(1);
+        NodeConfig config = new NodeConfig();
+
+        try {
+            nodes.set(0, Geth.newEnode("enode://e7544d59131271e89bcf6b14cd57323e15b0c9474edb463d4832e6fbc80722245e840997286a0d21a589b3e024def1e45095959a12d42219d1e419fe487fa767@50.112.52.169:30301"));
+            config.setBootstrapNodes(nodes);
+            config.setEthereumChainConfig(Geth.getTestnetChainConfig());
+            config.setEthereumGenesis(Geth.getTestnetGenesis());
+            config.setEthereumTestnetNonces(true);
+            config.setEthereumNetworkID(2);
+            config.setMaxPeers(25);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return config;
     }
 }
