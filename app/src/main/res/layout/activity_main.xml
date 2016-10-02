@@ -28,8 +28,9 @@
         android:id="@+id/balanceText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
         android:layout_below="@+id/addressText"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/refreshButton"
@@ -38,4 +39,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/refreshButton"
+        android:layout_alignStart="@+id/refreshButton"
+        android:layout_marginBottom="51dp" />
 </RelativeLayout>

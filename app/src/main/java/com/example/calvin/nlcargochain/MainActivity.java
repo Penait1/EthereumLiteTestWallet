@@ -28,12 +28,15 @@ public class MainActivity extends AppCompatActivity {
     private AccountManager accountManager;
     private EthereumClient ethereumClient;
 
+    private final static int FIRST_ACCOUNT = 0;
+    private final static int TESTNET_NETWORK_ID = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setTitle("NLCargoChain");
+        setTitle("Ethereum Lite Wallet");
         final TextView latestBlockInfoText = (TextView) findViewById(R.id.latestBlockInfoText);
         final TextView addressText = (TextView) findViewById(R.id.addressText);
         final TextView balanceText = (TextView) findViewById(R.id.balanceText);
@@ -57,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
                 accountManager.newAccount("test");
             }
 
-            addressText.append("Your address: " + accountManager.getAccounts().get(0).getAddress().getHex());
-            balanceText.setText("Your balance is: " + ethereumClient.getBalanceAt(context, accountManager.getAccounts().get(0).getAddress(), -1));
-            System.out.println(accountManager.getAccounts().get(0).getAddress().getHex());
+            addressText.append("Your address: " + accountManager.getAccounts().get(FIRST_ACCOUNT).getAddress().getHex());
+            balanceText.setText("Balance:\n" + ethereumClient.getBalanceAt(context, accountManager.getAccounts().get(0).getAddress(), -1));
+            System.out.println(accountManager.getAccounts().get(FIRST_ACCOUNT).getAddress().getHex());
 
             //Event handler for refresh button
             refreshButton.setOnClickListener(new View.OnClickListener() {
@@ -75,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            //Handler that handles incomming downloaded block headers
             NewHeadHandler handler = new NewHeadHandler() {
                 @Override
                 public void onError(String error) {
@@ -107,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             config.setEthereumChainConfig(Geth.getTestnetChainConfig());
             config.setEthereumGenesis(Geth.getTestnetGenesis());
             config.setEthereumTestnetNonces(true);
-            config.setEthereumNetworkID(2);
+            config.setEthereumNetworkID(TESTNET_NETWORK_ID);
             config.setMaxPeers(25);
         } catch (Exception e) {
             e.printStackTrace();
