@@ -88,7 +88,7 @@ public class Wallet {
         NodeConfig config = new NodeConfig();
 
         try {
-            nodes.set(0, Geth.newEnode("enode://e7544d59131271e89bcf6b14cd57323e15b0c9474edb463d4832e6fbc80722245e840997286a0d21a589b3e024def1e45095959a12d42219d1e419fe487fa767@50.112.52.169:30301"));
+            nodes.set(0, Geth.newEnode("enode://d72af45ba9b60851a8077a4eb07700484b585e5f2e55024e0c93b7ec7d114f2e3fa3c8f3a3358f89da00a609f5a062415deb857ada863b8cdad02b0b0bc90da3@50.112.52.169:30301"));
             config.setBootstrapNodes(nodes);
             config.setEthereumChainConfig(Geth.getTestnetChainConfig());
             config.setEthereumGenesis(Geth.getTestnetGenesis());
